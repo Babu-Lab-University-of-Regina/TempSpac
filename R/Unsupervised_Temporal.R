@@ -1,6 +1,6 @@
-##################################################################
-######unsupervised learning & visualization of temporal data######
-##################################################################
+###################################################################
+###### unsupervised learning & visualization of temporal data######
+###################################################################
 
 
 library(gplots)
@@ -23,7 +23,7 @@ df <-
     read.table(file.choose(""),
         sep="\t", header =T, row.names = 1)
 scaledata <-
-    t(scale(t(df))) #center and scale data input (optional)
+    t(scale(t(df))) #center & scale data input (optional)
 
 ##################################################################
 #################### 1. Hierarchical Clustering
